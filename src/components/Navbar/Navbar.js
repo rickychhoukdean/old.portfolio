@@ -3,7 +3,7 @@ import "./Navbar.scss";
 
 export default function Project() {
   return (
-    <main className="project_title">
+    <main className="navbar-main">
    <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
 
 <a class="navbar-brand " href="#"><i class="fas fa-home"></i> Ricky Chhoukdean</a>
@@ -14,11 +14,12 @@ export default function Project() {
 
 
 
-<div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="nav navbar-nav ml-auto">
-        <li class="nav-item"> <a class="nav-link" href="wwww.example.com">LinkedIn</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="wwww.example.com">E-mail</a> </li>
+<div class="collapse navbar-collapse" id="  ">
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item"> <a class="nav-link" href="wwww.example.com">My Projects</a> </li>
         <li class="nav-item"> <a class="nav-link" href="wwww.example.com">Resume</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="wwww.example.com">About</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="wwww.example.com">Contact Me!</a> </li>
 </ul>
 </div>
 </nav>
