@@ -1,7 +1,7 @@
 import React from "react";
 import "./Project.scss";
-import Tech from"./Tech/Tech"
-export default function Project() {
+import Tech from "./Tech/Tech";
+export default function Project(props) {
   return (
     <main className="project_title">
       <div className="card card-style">
@@ -10,19 +10,14 @@ export default function Project() {
           src="https://via.placeholder.com/640x360"
           alt="Project"
         />
-        <h3 className="card-body" id="card-title">Body Title</h3>
+        <h3 className="card-body" id="card-title">
+          {props.title}
+        </h3>
         <div className="card-body">
-          <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
+          <p className="card-text">{props.description}</p>
         </div>
         <div className="tech-used">
- 
-<Tech />
-<Tech />
-<Tech />
-
+          <Tech tech={props.tech} />
         </div>
       </div>
     </main>

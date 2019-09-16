@@ -13,8 +13,6 @@ function App() {
       <Landing />
       <Navbar />
       <Projects />
-
-
     </Fragment>
   );
 }
