@@ -7,7 +7,7 @@ export default function Project(props) {
       <div className="card card-style">
         <img
           className="card-img-top"
-          src="https://via.placeholder.com/640x360"
+          src={props.thumbnail}
           alt="Project"
         />
         <h3 className="card-body" id="card-title">

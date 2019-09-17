@@ -9,13 +9,14 @@ import "bootstrap/dist/js/bootstrap.js";
 
 function App() {
   return (
+    // <div className="container">
     <Fragment>
       <Landing />
       <Navbar />
       <Projects />
 
-
     </Fragment>
+    // </div>
   );
 }
 
