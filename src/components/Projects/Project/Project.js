@@ -3,7 +3,7 @@ import "./Project.scss";
 import Tech from "./Tech/Tech";
 export default function Project(props) {
   return (
-    <main className="project_title">
+    <div className="project_title">
       <div className="card card-style">
         <img
           className="card-img-top"
@@ -20,6 +20,6 @@ export default function Project(props) {
           <Tech tech={props.tech} />
         </div>
       </div>
-    </main>
+    </div>
   );
 }

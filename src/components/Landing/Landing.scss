@@ -1,52 +1,24 @@
-html {
-  height: 100%;
-  overflow: hidden;
-}
-body {
-  color: #fff;
-  margin: 0;
-  padding: 0;
-  perspective: 1px;
-  transform-style: preserve-3d;
-  height: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  font-family: "Luna";
-}
-.parallax-head {
-  box-sizing: border-box;
-  min-height: 100vh;
-  padding: 30vw 0 5vw;
+.pimg1 {
   position: relative;
-  transform-style: inherit;
-  width: 100vw;
-  left: 0;
-  right: 0;
-  top: 0;
-}
-
-.parallax-head,
-.parallax-head:before {
-  background: 50% 50% / cover;
-}
-.parallax-head::before {
-  overflow: hidden;
-  bottom: 0;
-  content: "";
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  display: block;
-  background-image: url("./backgroundtest.jpg");
-  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  transform-origin: center center 0;
-  transform: translateZ(-1px) scale(2);
-  z-index: -1;
-  max-height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("./backgroundtest.jpg");
+  min-height: 100vh;
+  z-index: -100;
 }
 
+.title {
+  font-size: 2em;
+  text-shadow: 1px 1px black;
+}
+.subtitle,
+.links {
+  margin-top: 0.75em;
+  font-size: 0.75em;
+  text-shadow: 1px 1px black;
+}
 .color-overlay {
   width: 100%;
   height: 100%;
@@ -55,27 +27,12 @@ body {
   position: absolute;
 }
 
-.parallax-content {
-  color: #fff;
-}
-
-.parallax-head * {
-  font-weight: normal;
-  letter-spacing: 0.2em;
-  text-align: center;
-  margin: 0;
-  padding: 1em 0;
-}
-
 .pimg2 {
   position: relative;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-.pimg2 {
   background-image: url("./image2.jpg");
   min-height: 200px;
   z-index: 5;
@@ -85,23 +42,12 @@ body {
   text-align: center;
   padding: 50px 80px;
 }
-
-.section-light {
-  background-color: #f4f4f4;
-  color: #666;
-}
-
-.section-dark {
-  background-color: #282e34;
-  color: #ddd;
-}
-
 .ptext {
   position: absolute;
   top: 50%;
   width: 100%;
   text-align: center;
-  color: #000;
+  color: #fff;
   font-size: 27px;
   letter-spacing: 8px;
   text-transform: uppercase;
@@ -116,22 +62,29 @@ body {
 .ptext .border.trans {
   background-color: transparent;
 }
-
+.title .ptext {
+  font-size: 3em;
+}
 .about-flex {
   display: flex;
   flex-direction: row;
-  // justify-content: space-between;
 }
 .about-text,
-.about-image {
+.about-picture-holder {
   width: 40vw;
   margin: auto;
 }
 
+.about-picture {
+  margin: 100px;
+  width: 400px;
+  border: 3px;
+  border-style: solid;
+}
+
 @media (max-width: 568px) {
   .pimg1,
-  .pimg2,
-  .pimg3 {
+  .pimg2 {
     background-attachment: scroll;
   }
 }
@@ -143,6 +96,5 @@ body {
   .about-text,
   .about-image {
     width: 80vw;
-
   }
 }

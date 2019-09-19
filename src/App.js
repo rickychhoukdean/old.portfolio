@@ -1,22 +1,19 @@
 import React, { Fragment } from "react";
-import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Landing from "./components/Landing/Landing";
 import Projects from "./components/Projects/Projects";
-
+import Footer from "./components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 
 function App() {
   return (
-    // <div className="container">
     <Fragment>
       <Landing />
       <Navbar />
-      <Projects />
-
+        <Projects />
+      <Footer />
     </Fragment>
-    // </div>
   );
 }
 

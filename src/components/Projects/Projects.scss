@@ -1,16 +1,27 @@
 .Projects {
-  height: 100vh;
-  background-color: white;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+#project-section {
+  border-bottom: none;
+  padding-bottom: 5em;
+}
+
+.section-dark {
+  border-width: 3px 0px 3px 0px;
+  border-style: solid;
+  background-color: #353d44;
+  background-image: url("https://www.transparenttextures.com/patterns/black-twill.png");
+  background-repeat: repeat;
+  color: #fff;
 }
 
 @media only screen and (max-width: 1020px) {
   .Projects {
     display: grid;
   }
-
   .card-style {
     width: 100vw;
   }

@@ -2,6 +2,8 @@ import React, { Fragment } from "react";
 import "./Projects.scss";
 import Project from "./Project/Project";
 import allProjects from "./projectArray";
+import Fade from "react-reveal/Fade";
+
 
 let mapProjects = allProjects.map(x => {
   return (
@@ -17,8 +19,10 @@ let mapProjects = allProjects.map(x => {
 
 export default function Projects() {
   return (
-    <Fragment>
-      <section className="Projects">{mapProjects}</section>
-    </Fragment>
+    <section id="project-section" className="section-dark">
+      <Fade big duration={3000}>
+        <div className="Projects">{mapProjects}</div>
+      </Fade>
+    </section>
   );
 }

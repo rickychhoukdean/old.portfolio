@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./Navbar.scss";
 
+
 export default function Project() {
   //Scroll to part effect
   const scrollToRef = ref => window.scrollTo(0, ref.current.offsetTop);
@@ -14,7 +15,7 @@ export default function Project() {
   }); // Scroll on mount
 
   return (
-    <main className="navbar-main">
+    <main className=" fixed-top">
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
         <a className="navbar-brand " href="https://rickychhoukdean.github.io/">
           <i className="fas fa-home"></i> Ricky Chhoukdean
@@ -43,12 +44,16 @@ export default function Project() {
 
                   scrollToRef(myRef);
                 }}
-                >
-                My Projects
+              >
+                Projects
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="wwww.example.com">
+              <a
+                className="nav-link"
+                href="https://resume.creddle.io/resume/7hk5dhz1slo"
+                target="_blank"
+              >
                 Resume
               </a>
             </li>
