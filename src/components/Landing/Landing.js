@@ -5,7 +5,6 @@ import Fade from "react-reveal/Fade";
 export default function Project() {
   return (
     <Fragment>
-      <div className="color-overlay"></div>
       <div className="pimg1">
         <div className="ptext">
           <span>
@@ -28,14 +27,19 @@ export default function Project() {
       <section className="about-section section-dark">
         <div className="about-flex">
           <div className="about-text">
-            <h1>
+            
+            <div className="atext">
               <Fade top cascade duration={2000}>
-                <span className="border trans"> ABOUT ME </span>
+                <span className="border trans"> About </span>
               </Fade>
-            </h1>
+            </div>
             <Fade duration={1000} delay={1000}>
+              <div className="acontent">
               Hi there! I'm Ricky Chhoukdean and I have a backgroud in
-              progammatic digital marketing and mathematics. When I'm not coding you can find me training to one day be able to finally dunk a basketball.
+              progammatic digital marketing and mathematics. When I'm not coding
+              you can find me training to one day be able to finally dunk a
+              basketball.
+              </div>
             </Fade>
           </div>
           <div className="about-picture-holder">

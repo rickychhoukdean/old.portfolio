@@ -19,13 +19,6 @@
   font-size: 0.75em;
   text-shadow: 1px 1px black;
 }
-.color-overlay {
-  width: 100%;
-  height: 100%;
-  background: black;
-  opacity: 0.3;
-  position: absolute;
-}
 
 .pimg2 {
   position: relative;
@@ -53,16 +46,27 @@
   text-transform: uppercase;
 }
 
-.ptext .border {
+.atext {
+  width: 100%;
+  text-align: center;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border,
+.atext .border {
   background-color: #111;
   color: #fff;
   padding: 20px;
 }
 
-.ptext .border.trans {
+.ptext .border.trans,
+.atext .border.trans {
   background-color: transparent;
 }
-.title .ptext {
+.title .ptext,
+.title .atext {
   font-size: 3em;
 }
 .about-flex {
@@ -73,6 +77,10 @@
 .about-picture-holder {
   width: 40vw;
   margin: auto;
+}
+
+.acontent {
+  text-align: center;
 }
 
 .about-picture {
@@ -94,7 +102,8 @@
     display: grid;
   }
   .about-text,
-  .about-image {
+  .about-image,
+  .about-picture-holder {
     width: 80vw;
   }
 }
