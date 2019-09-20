@@ -37,7 +37,7 @@ export default function Project() {
           <ul className="nav navbar-nav ml-auto">
             <li className="nav-item">
               <a
-                className="nav-link"
+                className="ntext nav-link"
                 href="wwww.example.com"
                 onClick={event => {
                   event.preventDefault();
@@ -50,7 +50,7 @@ export default function Project() {
             </li>
             <li className="nav-item">
               <a
-                className="nav-link"
+                className="ntext nav-link"
                 href="https://resume.creddle.io/resume/7hk5dhz1slo"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -58,13 +58,15 @@ export default function Project() {
                 Resume
               </a>
             </li>
+            
             <li className="nav-item">
-              <a className="nav-link" href="wwww.example.com">
+              <a className="ntext nav-link" href="wwww.example.com">
                 About
               </a>
             </li>
+            
             <li className="nav-item">
-              <a className="nav-link" href="wwww.example.com">
+              <a className="ntext nav-link" href="wwww.example.com">
                 Contact Me!
               </a>
             </li>
