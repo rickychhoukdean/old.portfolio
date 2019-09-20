@@ -2,7 +2,6 @@ import React from "react";
 import "./Project.scss";
 import Tech from "./Tech/Tech";
 export default function Project(props) {
-  console.log(props);
   return (
     <a href={props.site} className="project_title">
       <div className="card card-style">

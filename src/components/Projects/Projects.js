@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import "./Projects.scss";
 import Project from "./Project/Project";
 import allProjects from "./projectArray";

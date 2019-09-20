@@ -53,6 +53,7 @@ export default function Project() {
                 className="nav-link"
                 href="https://resume.creddle.io/resume/7hk5dhz1slo"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Resume
               </a>

@@ -25,7 +25,7 @@ const Scheduler = new ProjectObj(
   "Single-page application built using React to schedule interviews connecting to a RESTFul api. Focused strengthening best practices in React by building out components with Storybook, and integration / end to end testing via Jest and Cypress.",
   "https://github.com/rickychhoukdean/scheduler/raw/master/src/images/create.png",
   ["React", "PostgreSQL", "Web Sockets"],
-  "interviewscheduler.netlify.com"
+  "https://interviewscheduler.netlify.com"
 );
 
 const Tweeter = new ProjectObj(

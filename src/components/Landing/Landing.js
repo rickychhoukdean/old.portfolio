@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 export default function Project() {
   return (
     <Fragment>
-      <div class="color-overlay"></div>
+      <div className="color-overlay"></div>
       <div className="pimg1">
         <div className="ptext">
           <span>
@@ -27,7 +27,7 @@ export default function Project() {
 
       <section className="about-section section-dark">
         <div className="about-flex">
-          <p className="about-text">
+          <div className="about-text">
             <h1>
               <Fade top cascade duration={2000}>
                 <span className="border trans"> ABOUT ME </span>
@@ -37,7 +37,7 @@ export default function Project() {
               Hi there! I'm Ricky Chhoukdean and I have a backgroud in
               progammatic digital marketing and mathematics. When I'm not coding you can find me training to one day be able to finally dunk a basketball.
             </Fade>
-          </p>
+          </div>
           <div className="about-picture-holder">
             <Fade duration={3000}>
               <img
