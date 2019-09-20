@@ -18,7 +18,7 @@ export default function Project() {
     <main className=" fixed-top">
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
         <a className="navbar-brand " href="https://rickychhoukdean.github.io/">
-          <i className="fas fa-home"></i> Ricky Chhoukdean
+         HOME
         </a>
         <button
           ref={myRef}

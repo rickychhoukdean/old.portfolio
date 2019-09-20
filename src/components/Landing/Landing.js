@@ -8,7 +8,7 @@ export default function Project() {
       <div className="pimg1">
         <div className="ptext">
           <span>
-            <div className="trans title">
+            <div className="title">
               <Fade top cascade duration={2000}>
                 <span className="border trans"> RICKY CHHOUKDEAN </span>
               </Fade>
@@ -21,8 +21,10 @@ export default function Project() {
               <Fade top duration={1000} delay={1000}></Fade>
             </div>
           </span>
+      <div class="arrow bounce"></div>
         </div>
       </div>
+
 
       <section className="about-section section-dark">
         <div className="about-flex">
@@ -57,7 +59,7 @@ export default function Project() {
       <div className="pimg2">
         <div className="ptext">
           <Fade cascade top duration={2000}>
-            <span className="border trans">Projects</span>
+            <span className="border trans ">Projects</span>
           </Fade>
         </div>
       </div>
