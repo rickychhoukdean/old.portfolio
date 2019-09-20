@@ -2,14 +2,11 @@ import React from "react";
 import "./Project.scss";
 import Tech from "./Tech/Tech";
 export default function Project(props) {
+  console.log(props);
   return (
-    <div className="project_title">
+    <a href={props.site} className="project_title">
       <div className="card card-style">
-        <img
-          className="card-img-top"
-          src={props.thumbnail}
-          alt="Project"
-        />
+        <img className="card-img-top" src={props.thumbnail} alt="Project" />
         <h3 className="card-body" id="card-title">
           {props.title}
         </h3>
@@ -20,6 +17,6 @@ export default function Project(props) {
           <Tech tech={props.tech} />
         </div>
       </div>
-    </div>
+    </a>
   );
 }

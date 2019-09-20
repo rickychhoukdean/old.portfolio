@@ -13,6 +13,7 @@ let mapProjects = allProjects.map(x => {
       description={x.description}
       thumbnail={x.thumbnail}
       tech={x.tech}
+      site={x.site}
     />
   );
 });
