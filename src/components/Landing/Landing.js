@@ -2,10 +2,14 @@ import React, { Fragment } from "react";
 import "./Landing.scss";
 import Fade from "react-reveal/Fade";
 
+const downArrow = function() {
+  console.log("hi")
+};
+
 export default function Project() {
   return (
     <Fragment>
-      <div className="pimg1">
+      <div id="overlay" className="pimg1">
         <div className="ptext">
           <span>
             <div className="title">
@@ -21,15 +25,13 @@ export default function Project() {
               <Fade top duration={1000} delay={1000}></Fade>
             </div>
           </span>
-      <div class="arrow bounce"></div>
+          <div className="arrow bounce" onClick={downArrow}></div>
         </div>
       </div>
-
 
       <section className="about-section section-dark">
         <div className="about-flex">
           <div className="about-text">
-            
             <div className="atext">
               <Fade top cascade duration={2000}>
                 <span className="border trans"> About </span>
@@ -37,10 +39,10 @@ export default function Project() {
             </div>
             <Fade duration={1000} delay={1000}>
               <div className="acontent">
-              Hi there! I'm Ricky Chhoukdean and I have a backgroud in
-              progammatic digital marketing and mathematics. When I'm not coding
-              you can find me training to one day be able to finally dunk a
-              basketball.
+                Hi there! I'm Ricky Chhoukdean and I have a backgroud in
+                progammatic digital marketing and mathematics. When I'm not
+                coding you can find me training to one day be able to finally
+                dunk a basketball.
               </div>
             </Fade>
           </div>

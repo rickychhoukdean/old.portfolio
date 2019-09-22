@@ -4,7 +4,6 @@ import Project from "./Project/Project";
 import allProjects from "./projectArray";
 import Fade from "react-reveal/Fade";
 
-
 let mapProjects = allProjects.map(x => {
   return (
     <Project
@@ -27,3 +26,4 @@ export default function Projects() {
     </section>
   );
 }
+
