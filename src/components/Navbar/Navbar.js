@@ -13,6 +13,9 @@ export default function Project() {
     scrollToRef(myRef);
   }); // Scroll on mount
 
+  
+
+
   useEffect(() => {
     window.onscroll = () => {
       if (window.pageYOffset === 0) {
@@ -23,9 +26,9 @@ export default function Project() {
   return (
     <main className=" fixed-top">
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a className="navbar-brand " href="https://rickychhoukdean.github.io/">
+        {/* <a className="navbar-brand " href="https://rickychhoukdean.github.io/">
           HOME
-        </a>
+        </a> */}
         <button
           ref={myRef}
           className="navbar-toggler"

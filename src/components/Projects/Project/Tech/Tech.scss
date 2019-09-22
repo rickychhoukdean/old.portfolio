@@ -1,7 +1,9 @@
-.tech-used {
-    border-top: 1px solid black;
-  }
-  
-  .tech {
-    margin: 1em 0.5em 1em 0.5em;
-  }
+.tech {
+  margin: 1em 0.5em 1em 0.5em;
+  display: inline-block;
+
+  padding: 8px 12px;
+  border-radius: 5px;
+  background-color: #ededed;
+  color: black;
+}

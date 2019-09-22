@@ -20,10 +20,16 @@ let mapProjects = allProjects.map(x => {
 export default function Projects() {
   return (
     <section id="project-section" className="section-dark">
+      <div className="pimg2">
+        <div className="ptext">
+          <Fade cascade top duration={2000}>
+            <span className="border trans ">Projects</span>
+          </Fade>
+        </div>
+      </div>
       <Fade big duration={3000}>
         <div className="Projects">{mapProjects}</div>
       </Fade>
     </section>
   );
 }
-
