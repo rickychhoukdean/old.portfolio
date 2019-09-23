@@ -14,9 +14,9 @@ let allProjects = [];
 
 const Caterly = new ProjectObj(
   "Caterly",
-  "Food ordering intermediary that connects customers and restaurants allowing the customer to order food from a list of restaurants and have the restaurant respond to them via text (Twilio API). Made with the intention of strengthening knowledge of creating a functional express-app from the ground up.",
+  "Food ordering intermediary that connects customers and restaurants via text (Twilio API). Made with the intention of strengthening knowledge of creating a functional express-app from the ground up.",
   "https://i.imgur.com/Ax95QHM.jpg",
-  ["Express", "Ajax",  "Web Sockets", "PostreSQL", "jQuery"],
+  ["Express", "Ajax",  "WebSocket", "PostreSQL", "jQuery"],
   "https://github.com/ray1028/Caterly"
 );
 
@@ -24,7 +24,7 @@ const Scheduler = new ProjectObj(
   "Scheduler",
   "Single-page application built using React to schedule interviews connecting to a RESTFul api. Focused strengthening best practices in React by building out components with Storybook, and integration / end to end testing via Jest and Cypress.",
   "https://i.gyazo.com/ac3354a1b419d9deac4673af6fbf7490.png",
-  ["React", "PostgreSQL", "Web Sockets"],
+  ["React", "PostgreSQL", "WebSocket"],
   "https://interviewscheduler.netlify.com"
 );
 
@@ -38,9 +38,9 @@ const Tweeter = new ProjectObj(
 
 const TinyApp = new ProjectObj(
   "TinyApp",
-  "Responsive single-page application powered by AJAX made imitate twitter. Focused on responsive design to strengthen front-end skills with HTML and CSS .",
+  "Simple express app that provides short aliases for redirection of long URLs",
   "https://i.imgur.com/mAw0VtX.jpg",
-  ["Express", "jQuery", "MongoDB"],
+  ["Express", "Node"],
   "https://github.com/rickychhoukdean/tinyApp"
 );
 

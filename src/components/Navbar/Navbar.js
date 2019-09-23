@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./Navbar.scss";
 import NavbarItem from "./NavbarItem/NavbarItem";
+import Fade from "react-reveal/Fade";
 
 export default function Project() {
   useEffect(() => {
@@ -26,21 +27,32 @@ export default function Project() {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <ul className="nav navbar-nav">
-              <NavbarItem title="About" link="#about-section" />
-            <NavbarItem title="Projects" link="#project-section" />
-            <li className="nav-item">
-              <a
-                className="ntext nav-link"
-                href="https://resume.creddle.io/resume/7hk5dhz1slo"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Resume
-              </a>
-            </li>
-            {/* <NavbarItem title="Contact me!" link="#contact-section" /> */}
-          </ul>
+          <Fade top cascade duration={3000}>
+            <ul className="nav navbar-nav">
+              {/* <NavbarItem title="About" link="#about-section" />
+              <NavbarItem title="Projects" link="#project-section" /> */}
+              <li className="nav-item">
+                <a className="ntext nav-link" href="#about-section">
+                  About
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="ntext nav-link" href="#project-section">
+                  Projects
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="ntext nav-link"
+                  href="https://resume.creddle.io/resume/7hk5dhz1slo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Resume
+                </a>
+              </li>
+            </ul>
+          </Fade>
         </div>
       </nav>
     </main>

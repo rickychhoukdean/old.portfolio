@@ -7,11 +7,11 @@ export default function Project(props) {
     <div id="overlay" className="pimg1">
       <div className="ptext">
         <span>
-          <div className="title">
-            <Fade top cascade duration={2000}>
+          <Fade top cascade duration={2000}>
+            <div className="title">
               <span className="border trans"> {props.name} </span>
-            </Fade>
-          </div>
+            </div>
+          </Fade>
 
           <Fade duration={1000} delay={500}>
             <div className="subtitle"> {props.subtitle} </div>
