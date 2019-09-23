@@ -12,7 +12,7 @@ export default function About(props) {
               <span className="border trans"> About </span>
             </Fade>
           </div>
-          <Fade duration={1000} delay={1000}>
+          <Fade duration={1000} delay={750}>
             <div className="acontent">{props.content}</div>
           </Fade>
         </div>

@@ -17,7 +17,7 @@ const Caterly = new ProjectObj(
   "Food ordering intermediary that connects customers and restaurants allowing the customer to order food from a list of restaurants and have the restaurant respond to them via text (Twilio API). Made with the intention of strengthening knowledge of creating a functional express-app from the ground up.",
   "https://i.imgur.com/Ax95QHM.jpg",
   ["Express", "Ajax",  "Web Sockets", "PostreSQL", "jQuery"],
-  "placeholder.com"
+  "https://github.com/ray1028/Caterly"
 );
 
 const Scheduler = new ProjectObj(
@@ -32,9 +32,8 @@ const Tweeter = new ProjectObj(
   "Tweeter",
   "Responsive single-page application powered by AJAX made imitate twitter. Focused on responsive design to strengthen front-end skills with HTML and CSS .",
   "https://i.imgur.com/8Hez5zi.png",
-  // "https://i.imgur.com/M7LmSwD.png",
   ["Express", "jQuery", "MongoDB"],
-  "test"
+  "https://github.com/rickychhoukdean/tweeter"
 );
 
 const TinyApp = new ProjectObj(
@@ -42,7 +41,7 @@ const TinyApp = new ProjectObj(
   "Responsive single-page application powered by AJAX made imitate twitter. Focused on responsive design to strengthen front-end skills with HTML and CSS .",
   "https://i.imgur.com/mAw0VtX.jpg",
   ["Express", "jQuery", "MongoDB"],
-  "test"
+  "https://github.com/rickychhoukdean/tinyApp"
 );
 
 allProjects.push(Caterly);
