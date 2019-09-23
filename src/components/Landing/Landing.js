@@ -13,10 +13,10 @@ export default function Project(props) {
             </Fade>
           </div>
 
-          <Fade duration={1000} delay={1000}>
+          <Fade duration={1000} delay={500}>
             <div className="subtitle"> {props.subtitle} </div>
           </Fade>
-          <Fade duration={1000} delay={2000}>
+          <Fade duration={1000} delay={1500}>
             <div className="links">
               <span>
                 <a

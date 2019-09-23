@@ -27,6 +27,7 @@ export default function Project() {
 
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul className="nav navbar-nav">
+              <NavbarItem title="About" link="#about-section" />
             <NavbarItem title="Projects" link="#project-section" />
             <li className="nav-item">
               <a
@@ -38,7 +39,6 @@ export default function Project() {
                 Resume
               </a>
             </li>
-            <NavbarItem title="About" link="#about-section" />
             {/* <NavbarItem title="Contact me!" link="#contact-section" /> */}
           </ul>
         </div>

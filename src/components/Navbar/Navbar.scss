@@ -21,9 +21,10 @@
 
 .ntext {
   text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+
 }
 
 .ntext:hover {
-  font-weight: bold;
   transform: translate(0px, -2px);
 }
