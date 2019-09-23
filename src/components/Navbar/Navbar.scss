@@ -9,13 +9,10 @@
   background-color: red;
 }
 
-nav {
-  border-width: 0px 0px 1px 0px;
-  border-style: solid;
-}
 .navbar-nav {
   display: flex;
   justify-content: space-between;
+  margin: auto;
 }
 
 .nav-link {
@@ -29,5 +26,4 @@ nav {
 .ntext:hover {
   font-weight: bold;
   transform: translate(0px, -2px);
-
 }

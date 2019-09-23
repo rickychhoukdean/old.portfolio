@@ -1,21 +1,8 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import "./Navbar.scss";
+import NavbarItem from "./NavbarItem/NavbarItem";
 
 export default function Project() {
-  //Scroll to part effect
-  const scrollToRef = ref => window.scrollTo(0, ref.current.offsetTop);
-
-  const useMountEffect = fun => useEffect(fun, []);
-
-  const myRef = useRef(null);
-
-  useMountEffect(event => {
-    scrollToRef(myRef);
-  }); // Scroll on mount
-
-  
-
-
   useEffect(() => {
     window.onscroll = () => {
       if (window.pageYOffset === 0) {
@@ -26,37 +13,21 @@ export default function Project() {
   return (
     <main className=" fixed-top">
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-        {/* <a className="navbar-brand " href="https://rickychhoukdean.github.io/">
-          HOME
-        </a> */}
         <button
-          ref={myRef}
           className="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse">
-          <ul className="nav navbar-nav ml-auto">
-            <li className="nav-item">
-              <a
-                className="ntext nav-link"
-                href="wwww.example.com"
-                onClick={event => {
-                  event.preventDefault();
-
-                  scrollToRef(myRef);
-                }}
-              >
-                Projects
-              </a>
-            </li>
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul className="nav navbar-nav">
+            <NavbarItem title="Projects" link="#project-section" />
             <li className="nav-item">
               <a
                 className="ntext nav-link"
@@ -67,18 +38,8 @@ export default function Project() {
                 Resume
               </a>
             </li>
-
-            <li className="nav-item">
-              <a className="ntext nav-link" href="wwww.example.com">
-                About
-              </a>
-            </li>
-
-            <li className="nav-item">
-              <a className="ntext nav-link" href="wwww.example.com">
-                Contact Me!
-              </a>
-            </li>
+            <NavbarItem title="About" link="#about-section" />
+            {/* <NavbarItem title="Contact me!" link="#contact-section" /> */}
           </ul>
         </div>
       </nav>

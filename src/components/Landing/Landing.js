@@ -18,12 +18,30 @@ export default function Project(props) {
           </Fade>
           <Fade duration={1000} delay={2000}>
             <div className="links">
-              <i className="fab fa-github title-link"> </i>
-              <i className="fab fa-linkedin title-link"></i>
+              <span>
+                <a
+                  href="https://github.com/rickychhoukdean"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-github title-link"></i>
+                </a>
+              </span>
+              <span>
+                <a
+                  href="https://www.linkedin.com/in/chhoukdean/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-linkedin title-link"></i>
+                </a>
+              </span>
             </div>
           </Fade>
         </span>
-        <div className="arrow bounce" onClick={downArrow}></div>
+        <a href="#about-section">
+          <div className="arrow bounce"></div>
+        </a>
       </div>
     </div>
   );
