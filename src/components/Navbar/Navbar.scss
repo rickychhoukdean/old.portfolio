@@ -17,14 +17,25 @@
 
 .nav-link {
   color: #fff !important;
+  letter-spacing: 4px;
 }
 
 .ntext {
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
-
 }
 
-.ntext:hover {
-  transform: translate(0px, -2px);
-}
+  .ntext:hover {
+    transform: translate(0px, -2px);
+  }
+
+  .navbar-nav .nav-item:not(:last-child) {
+    border-right: 2px solid #fff;
+    
+ }
+ 
+ @media (max-width: 768px) {
+   .navbar-nav .nav-item:not(:last-child) {
+     border-right: none;
+   }
+ }

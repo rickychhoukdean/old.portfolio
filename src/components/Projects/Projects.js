@@ -12,7 +12,8 @@ let mapProjects = allProjects.map(x => {
       description={x.description}
       thumbnail={x.thumbnail}
       tech={x.tech}
-      site={x.site}
+      github={x.github}
+      deploy={x.deploy}
     />
   );
 });

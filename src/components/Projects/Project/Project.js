@@ -3,14 +3,29 @@ import "./Project.scss";
 import Tech from "./Tech/Tech";
 export default function Project(props) {
   return (
-    <a
+    <div
       href={props.site}
       className="project_title"
       target="_blank"
       rel="noopener noreferrer"
     >
-      <div className="card card-style">
-        <img className="card-img-top" src={props.thumbnail} alt="Project" />
+      <div className=" card card-style">
+        <div className="link-container">
+          <img className="card-img-top" src={props.thumbnail} alt="Project" />
+
+          <span className="link-flex">
+            <a href={props.github} target="_blank" rel="noopener noreferrer" className="link">
+              <button className="github">
+                <i class="fab fa-github"></i>
+              </button>
+            </a>
+            <a href={props.deploy} target="_blank" rel="noopener noreferrer" className="link">
+              <button className="deploy">
+                <i class="fas fa-globe"></i>
+              </button>
+            </a>
+          </span>
+        </div>
         <h3 className="card-body" id="card-title">
           {props.title}
         </h3>
@@ -21,6 +36,6 @@ export default function Project(props) {
           <Tech tech={props.tech} />
         </div>
       </div>
-    </a>
+    </div>
   );
 }
