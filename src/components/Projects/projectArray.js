@@ -20,6 +20,16 @@ let ProjectObj = (function() {
 
 let allProjects = [];
 
+
+const PartyPic = new ProjectObj(
+  "Party Pic",
+  "Online multiplayer pictionary game using your phone as a controller and desktop as the main screen. Presented at Toronto Devhub in front of over 100 people with multiple rooms of 8 players running at once.",
+  "https://i.imgur.com/Avbj7Iw.jpg",
+  ["Typescript", "React", "Redux", "Canvas", "Socket.IO"],
+  "http://partypic.herokuapp.com/",
+  "http://github.com/hsmalhi/pictionary-board/"
+);
+
 const Caterly = new ProjectObj(
   "Caterly",
   "Food ordering intermediary that connects customers and restaurants via text (Twilio API). Made with the intention of strengthening knowledge of creating a functional express-app from the ground up.",
@@ -49,18 +59,18 @@ const Tweeter = new ProjectObj(
 
 const Jungle = new ProjectObj(
   "Jungle ",
-  "E-commerce application made with Ruby and the rails framework. Made with the intetion of strengthening understanding of MVC principles, Ruby and Rails.",
+  "E-commerce application made with Ruby and the Rails framework. Made with the intetion of strengthening understanding of MVC principles."
+  
+  ,
   "https://i.imgur.com/07ASq7N.jpg",
   ["Ruby", "Rails", "Stripe", "Postgres"],
   "https://rickyjungle.herokuapp.com/",
   "https://github.com/rickychhoukdean/jungle"
 );
 
-console.log(allProjects)
-
+allProjects.push(PartyPic);
 allProjects.push(Caterly);
 allProjects.push(Scheduler);
-allProjects.push(Tweeter);
 allProjects.push(Jungle);
 
 export default allProjects;
