@@ -58,7 +58,7 @@ const Tweeter = new ProjectObj(
 );
 
 const Jungle = new ProjectObj(
-  "Jungle ",
+  "Jungle",
   "E-commerce application made with Ruby and the Rails framework. Made with the intetion of strengthening understanding of MVC principles."
   
   ,
@@ -66,6 +66,25 @@ const Jungle = new ProjectObj(
   ["Ruby", "Rails", "Stripe", "Postgres"],
   "https://rickyjungle.herokuapp.com/",
   "https://github.com/rickychhoukdean/jungle"
+);
+
+const Satellit = new ProjectObj(
+  "Satellit",
+  "React mobile progressive web app using NASA information for the 2019 Waterloo Nasa Hackathon in 24 hours. Made with the intention of teaching kids about satellites in a card-collecting game format"
+  ,
+  "https://i.imgur.com/07ASq7N.jpg",
+  ["React", "Postgres"],
+  "https://satellit.netlify.com/",
+  "https://github.com/rickychhoukdean/satellite-go"
+);
+
+const LanguageLearner = new ProjectObj(
+  "Language Learner",
+  "React-native app using typescript, AWS rekognition, AWS translate and GraphQL to teach users how to learn new languages with their own pictures.",
+  "https://i.imgur.com/07ASq7N.jpg",
+  ["React Native", "TypeScript", "GraphQL", "MongoDB"],
+  "https://github.com/rickychhoukdean/language-learner",
+  "https://github.com/rickychhoukdean/language-learner"
 );
 
 allProjects.push(PartyPic);
