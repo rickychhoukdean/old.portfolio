@@ -4,10 +4,7 @@ import Tech from "./Tech/Tech";
 export default function Project(props) {
   return (
     <div
-      href={props.site}
       className="project_title"
-      target="_blank"
-      rel="noopener noreferrer"
     >
       <div className=" card card-style">
         <div className="link-container">

@@ -9,6 +9,8 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 
 function App() {
+  document.addEventListener("touchstart", function() {}, true);
+
   return (
     <Fragment>
       <Landing name="Ricky Chhoukdean" subtitle="Fullstack Developer" />

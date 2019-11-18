@@ -18,6 +18,8 @@ let mapProjects = allProjects.map(x => {
   );
 });
 
+document.addEventListener("touchstart", function() {}, true);
+
 export default function Projects() {
   return (
     <section id="project-section" className="section-dark">
