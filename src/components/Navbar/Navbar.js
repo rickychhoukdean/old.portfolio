@@ -29,8 +29,6 @@ export default function Project() {
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <Fade top cascade duration={3000}>
             <ul className="nav navbar-nav">
-              {/* <NavbarItem title="About" link="#about-section" />
-              <NavbarItem title="Projects" link="#project-section" /> */}
               <li className="nav-item">
                 <a className="ntext nav-link" href="#about-section">
                   About
