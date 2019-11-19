@@ -4,12 +4,7 @@ import "./Footer.scss";
 export default function Projects() {
   return (
     <footer>
-      {/* <a href="https://github.com/rickychhoukdean" target="_blank" rel="noopener noreferrer">
-        <i className="fab fa-github"></i>
-        <i className="fab fa-linkedin"></i>
-
-      </a> */}
-      <div>© 2019 Ricky Chhoukdean</div>
+      <div className="footer-name">© 2019 Ricky Chhoukdean</div>
     </footer>
   );
 }
