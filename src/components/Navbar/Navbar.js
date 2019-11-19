@@ -49,6 +49,7 @@ export default function Project() {
                   Resume
                 </a>
               </li>
+              <div class="underbar"></div>
             </ul>
           </Fade>
         </div>

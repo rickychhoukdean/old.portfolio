@@ -23,7 +23,15 @@
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
 }
+.ntext::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width 0.5s;
+}
 
-.ntext:hover {
-  transform: translate(0px, -2px);
+.ntext:hover::after {
+  width: 100%;
 }
