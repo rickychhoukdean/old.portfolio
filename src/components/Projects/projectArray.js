@@ -49,7 +49,7 @@ const Scheduler = new ProjectObj(
 
 const Tweeter = new ProjectObj(
   "Tweeter",
-  "Responsive single-page application powered by AJAX made imitate twitter. Focused on responsive design to strengthen front-end skills with HTML and CSS .",
+  "Responsive single-page application powered by AJAX made imitate twitter. Focused on responsive design to strengthen front-end skills with HTML, CSS and jQuery.",
   "https://i.imgur.com/8Hez5zi.png",
   ["Express", "jQuery", "Ajax"],
   "https://ricky-tweeter.herokuapp.com/",
@@ -58,10 +58,10 @@ const Tweeter = new ProjectObj(
 
 const Jungle = new ProjectObj(
   "Jungle",
-  "E-commerce application made with Ruby and the Rails framework. Made with the intetion of strengthening understanding of MVC principles.",
+  "E-commerce application made with Ruby and the Rails framework. Images are hosted using AWS S3. Tested using Capybara. Made with the intetion of strengthening understanding of MVC principles.",
 
   "https://i.imgur.com/07ASq7N.jpg",
-  ["Ruby", "Rails", "Stripe", "Postgres"],
+  ["Ruby", "Rails", "Stripe", "PostgreSQL"],
   "https://rickyjungle.herokuapp.com/",
   "https://github.com/rickychhoukdean/jungle"
 );
@@ -70,7 +70,7 @@ const Satellit = new ProjectObj(
   "Satellit",
   "React mobile progressive web app using NASA information for the 2019 Waterloo Nasa Hackathon in 12 hours. Made with the intention of teaching kids about satellites in a card-collecting game format. Please view in mobile or mobile dimensions only!",
   "https://i.imgur.com/HgTzHpu.jpg",
-  ["React", "Postgres", "Bootstrap"],
+  ["React", "PostgreSQL", "Bootstrap"],
   "https://satellit.netlify.com/",
   "https://github.com/rickychhoukdean/satellite-go"
 );
