@@ -30,9 +30,7 @@ export default function Projects() {
           </Fade>
         </div>
       </div>
-      <Fade big duration={3000}>
         <div className="Projects">{mapProjects}</div>
-      </Fade>
     </section>
   );
 }

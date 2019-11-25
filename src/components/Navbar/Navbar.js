@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "./Navbar.scss";
-import NavbarItem from "./NavbarItem/NavbarItem";
 import Fade from "react-reveal/Fade";
 
 export default function Project() {
