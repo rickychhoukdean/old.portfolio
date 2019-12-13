@@ -28,11 +28,11 @@ export default function Project() {
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <Fade top cascade duration={3000}>
             <ul className="nav navbar-nav">
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="ntext nav-link" href="#about-section">
                   About
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="ntext nav-link" href="#project-section">
                   Projects
