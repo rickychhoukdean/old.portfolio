@@ -39,7 +39,7 @@ export default function Project(props) {
             </div>
           </Fade>
         </span>
-        <a href="#about-section">
+        <a href="#project-section">
           <div className="arrow bounce"></div>
         </a>
       </div>
