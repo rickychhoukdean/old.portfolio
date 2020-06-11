@@ -88,7 +88,5 @@ allProjects.push(PartyPic);
 allProjects.push(Caterly);
 allProjects.push(Scheduler);
 allProjects.push(Jungle);
-allProjects.push(Satellit);
-allProjects.push(Tweeter);
 
 export default allProjects;
