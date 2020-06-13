@@ -13,12 +13,12 @@ export default function Project(props) {
           <span className="link-flex">
             <a href={props.github} target="_blank" rel="noopener noreferrer" className="link">
               <button className="github">
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </button>
             </a>
             <a href={props.deploy} target="_blank" rel="noopener noreferrer" className="link">
               <button className="deploy">
-                <i class="fas fa-globe"></i>
+                <i className="fas fa-globe"></i>
               </button>
             </a>
           </span>

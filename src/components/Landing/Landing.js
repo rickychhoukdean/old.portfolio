@@ -1,10 +1,19 @@
 import React from "react";
 import "./Landing.scss";
 import Fade from "react-reveal/Fade";
+import video1 from "./Cn-tower.mp4";
+import video2 from "./Cn-tower.webm";
 
 export default function Project(props) {
   return (
-    <div id="overlay" className="pimg1">
+    <section className="section-landing">
+      <div className="bg-video">
+        <video className="bg-video__content" autoPlay muted loop>
+          <source src={video1} type="video/mp4" />
+          <source src={video2} type="video/webm" />
+          Your browser is not supported!
+        </video>
+      </div>
       <div className="ptext">
         <span>
           <Fade top cascade duration={2000}>
@@ -43,6 +52,6 @@ export default function Project(props) {
           <div className="arrow bounce"></div>
         </a>
       </div>
-    </div>
+    </section>
   );
 }
