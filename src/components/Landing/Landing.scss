@@ -1,6 +1,22 @@
-html {
-  scroll-behavior: smooth;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+
+}
+
+body {
+  box-sizing: border-box;
+}
+
+
 #overlay {
   color: black;
   min-height: 100vh;
