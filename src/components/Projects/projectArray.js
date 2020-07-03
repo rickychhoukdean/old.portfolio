@@ -24,7 +24,7 @@ const PartyPic = new ProjectObj(
   "Party Pic",
   "Online multiplayer pictionary game using your phone as a controller and desktop as the main screen. Presented at Toronto Devhub in front of over 100 people with multiple rooms of 8 players running at once.",
   "https://i.imgur.com/Avbj7Iw.jpg",
-  ["Typescript", "React", "Redux", "Canvas", "Socket.IO"],
+  ["Typescript", "React", "Redux", "Socket.IO"],
   "http://partypic.herokuapp.com/",
   "http://github.com/hsmalhi/pictionary-board/"
 );
@@ -33,7 +33,7 @@ const Caterly = new ProjectObj(
   "Caterly",
   "Food ordering intermediary that connects customers and restaurants via text (Twilio API). Made with the intention of strengthening knowledge of creating a functional express-app from the ground up.",
   "https://i.imgur.com/Ax95QHM.jpg",
-  ["Express", "Ajax", "WebSocket", "PostreSQL", "jQuery"],
+  ["jQuery", "WebSocket", "PostreSQL", ],
   "http://cater-ly.herokuapp.com/",
   "https://github.com/ray1028/Caterly"
 );
@@ -51,7 +51,7 @@ const Tweeter = new ProjectObj(
   "Tweeter",
   "Responsive single-page application powered by AJAX made imitate twitter. Focused on responsive design to strengthen front-end skills with HTML, CSS and jQuery.",
   "https://i.imgur.com/8Hez5zi.png",
-  ["Express", "jQuery", "Ajax"],
+  ["Express", "jQuery", "SPA"],
   "https://ricky-tweeter.herokuapp.com/",
   "https://github.com/rickychhoukdean/tweeter"
 );

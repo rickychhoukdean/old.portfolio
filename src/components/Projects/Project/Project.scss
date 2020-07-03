@@ -1,7 +1,7 @@
 .card {
   flex: 0 32%;
   height: 100px;
-  margin-bottom: 2%; /* (100-32*3)/2 */
+  margin-bottom: 2%;
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
@@ -117,19 +117,19 @@
   }
 }
 
-.btn {
+.cbtn {
   &,
   &:link,
   &:visited {
     text-transform: uppercase;
+    color:darkgray;
     text-decoration: none;
     padding: 1.5rem 4rem;
     display: inline-block;
     border-radius: 10rem;
     transition: all 0.2s;
     position: relative;
-    width: 50%;
-    //Change  for button element;
+    width: 75%;
     border: none;
     cursor: pointer;
   }
@@ -137,6 +137,8 @@
   &:hover {
     transform: translateY(-3px);
     box-shadow: 0 1rem 2rem rgba(black, 0.2);
+    text-decoration: none;
+
     &::after {
       transform: scaleX(1.4) scaleY(1.6);
       opacity: 0;
@@ -155,15 +157,6 @@
 
     &::after {
       background-color: white;
-    }
-  }
-
-  &--green {
-    background-color: orangered;
-    color: white;
-
-    &::after {
-      background-color: orangered;
     }
   }
 
@@ -186,10 +179,9 @@
   }
 }
 
-.btn-text {
+.cbtn-text {
   &:link,
   &:visited {
-    color: orangered;
     display: inline-block;
     text-decoration: none;
     border-bottom: 1px solid orangered;
@@ -199,7 +191,7 @@
 
   &:hover {
     color: white;
-    background-color: orangered;
+    // background-color: orangered;
     box-shadow: 0 1rem 2rem rgba(black, 0.15);
     transform: translateY(-2px);
   }

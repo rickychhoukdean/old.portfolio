@@ -4,7 +4,7 @@ import Project from "./Project/Project";
 import allProjects from "./projectArray";
 import Fade from "react-reveal/Fade";
 
-let mapProjects = allProjects.map(x => {
+let mapProjects = allProjects.map((x) => {
   return (
     <Project
       key={x.id}
@@ -18,7 +18,8 @@ let mapProjects = allProjects.map(x => {
   );
 });
 
-document.addEventListener("touchstart", function() {}, true);
+document.addEventListener("touchstart", function () {}, true);
+
 
 export default function Projects() {
   return (
@@ -30,7 +31,7 @@ export default function Projects() {
           </Fade>
         </div>
       </div>
-        <div className="Projects">{mapProjects}</div>
+      <div className="Projects">{mapProjects}</div>
     </section>
   );
 }

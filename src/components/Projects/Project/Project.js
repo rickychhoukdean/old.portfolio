@@ -30,7 +30,7 @@ export default function Project(props) {
             <div>
               <a
                 href={props.deploy}
-                class="btn btn--white"
+                class="cbtn cbtn--white"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -40,7 +40,7 @@ export default function Project(props) {
             <div>
               <a
                 href={props.github}
-                class="btn btn--white"
+                class="cbtn cbtn--white"
                 target="_blank"
                 rel="noopener noreferrer"
               >
