@@ -31,7 +31,7 @@ export default function Projects() {
           </Fade>
         </div>
       </div>
-      <div className="Projects">{mapProjects}</div>
+      <div className="Projects container">{mapProjects}</div>
     </section>
   );
 }

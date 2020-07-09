@@ -1,11 +1,11 @@
 .card {
   flex: 0 32%;
-  height: 100px;
   margin-bottom: 2%;
   perspective: 150rem;
   -moz-perspective: 150rem;
-  position: relative;
   height: 52rem;
+  border: none !important;
+  border-radius: 10px !important;
 
   &__more-info {
     text-align: center;
@@ -84,7 +84,8 @@
   }
 
   &__details {
-    color: darkgray;
+   
+     color: darkgray;
     padding: 3rem;
     ul {
       list-style: none;
@@ -122,7 +123,7 @@
   &:link,
   &:visited {
     text-transform: uppercase;
-    color:darkgray;
+    color: darkgray;
     text-decoration: none;
     padding: 1.5rem 4rem;
     display: inline-block;

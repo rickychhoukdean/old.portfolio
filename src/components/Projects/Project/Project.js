@@ -19,9 +19,9 @@ export default function Project(props) {
           </span>
         </h4>
         <div class="card__details">{props.description}</div>
-        <div className="tech-used">
+        {/* <div className="tech-used">
           <Tech tech={props.tech} />
-        </div>
+        </div> */}
       </div>
       <div class="card__side card__side--back card__side--back--1">
         <div class="card__cta">

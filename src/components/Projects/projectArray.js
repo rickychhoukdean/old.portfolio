@@ -40,7 +40,7 @@ const Caterly = new ProjectObj(
 
 const Scheduler = new ProjectObj(
   "Scheduler",
-  "Single-page application built using React to schedule interviews connecting to a RESTFul api. Focused strengthening best practices in React by building out components with Storybook, and integration / end to end testing via Jest and Cypress.",
+  "Single-page application built using React to schedule interviews connecting to a RESTFul api. Built components with Storybook, and integration / end to end testing via Jest and Cypress.",
   "https://i.gyazo.com/ac3354a1b419d9deac4673af6fbf7490.png",
   ["React", "PostgreSQL", "WebSocket"],
   "https://interviewscheduler.netlify.com",
@@ -68,7 +68,7 @@ const Jungle = new ProjectObj(
 
 const Satellit = new ProjectObj(
   "Satellit",
-  "React mobile progressive web app using NASA information for the 2019 Waterloo Nasa Hackathon in 12 hours. Made with the intention of teaching kids about satellites in a card-collecting game format. Please view in mobile or mobile dimensions only!",
+  "React mobile progressive web app using NASA information for the 2019 Waterloo Nasa Hackathon in 12 hours. Made with the intention of teaching kids about satellites in a card-collecting game format.",
   "https://i.imgur.com/HgTzHpu.jpg",
   ["React", "PostgreSQL", "Bootstrap"],
   "https://satellit.netlify.com/",
